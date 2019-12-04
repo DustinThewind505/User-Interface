@@ -64,3 +64,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* ====top nav==== */
+nav {
+	word-spacing: 100px;
+	margin: 30px;
+	text-align: center;
+}
+
+/* ====header==== */
+header {
+	margin: 30px;
+	
+}
+
+header div {
+	width: 50%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+h1 {
+	width: 25%;
+	font-size: 80px;
+	margin: 0 auto;
+text-align: center;
+}
+
+header button {
+	width: 30%;
+	margin-left: 40%;
+}
+
+header img {
+	margin: 0 auto;
+	
+}
+
+/* ====contact section==== */
+nav a, address a {
+	text-decoration: none;
+}
