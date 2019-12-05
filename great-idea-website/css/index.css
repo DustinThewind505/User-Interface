@@ -74,6 +74,7 @@ nav {
 	word-spacing: 90px;
 	margin: 30px auto;
 	text-align: center;
+	display: absolute;
 }
 
 nav a{
@@ -122,24 +123,36 @@ header img {
 .first-section  {
 	display: inline-block;
 	border-top: 1px solid black;
-	margin: 0 7%;
+	margin: 0 12%;
 	padding: 20px;
+}
+
+#features {
+margin-right: 80px;
+}
+
+#about {
+	padding-left: 20px;
 }
 
 .first-section div {
 display: inline-block;
-width: 40%;
+width: 44%;
+
 }
 
 /* ====second section==== */
 .second-section {
-width: 80%;
-margin: 0 auto;
+margin: 10px 150px;
+}
+
+.second-section img {
+	width: 950px;
 }
 
 /* ===third section=== */
 .third-section {
-	width: 80%;
+	width: 960px;
 	margin: 0 auto;
 	border-bottom: 1px solid black;
 }
@@ -148,9 +161,28 @@ margin: 0 auto;
 	display: inline-block;
 	width: 29%;
 	padding: 20px 10px 20px 0;
+	
 }
 
 /* ====contact section==== */
+.fourth-section {
+	width: 960px;
+	margin: 20px auto 0 auto;
+}
+
+address {
+	padding: 20px 0;
+}
+
 address a {
+	color: black;
 	text-decoration: none;
+	margin-top: 20px;
+}
+
+/* ====footer==== */
+footer {
+	width: 1000px;
+	margin:  0 500px;
+	padding-bottom: 200px;
 }
