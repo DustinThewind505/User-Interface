@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+
+/* ====top nav==== */
+nav {
+	width: 90%;
+	word-spacing: 90px;
+	margin: 30px auto;
+	text-align: center;
+	display: absolute;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+/* ====header==== */
+body header {
+	margin: 30px 0 0 100px;
+}
+
+header div {
+	display: inline-block;
+	padding: 50px 90px 50px 110px;
+}
+
+header .heading {
+	vertical-align: 100px;
+}
+
+header div img {
+	
+	vertical-align: 40px;
+}
+
+h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+header a {
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px 40px;
+	text-decoration: none;
+	margin-left: 100px;
+}
+
+header img {
+	
+	
+}
+
+/* ====first section==== */
+.first-section  {
+	display: inline-block;
+	border-top: 1px solid black;
+	margin: 0 12%;
+	padding: 20px;
+}
+
+#features {
+margin-right: 80px;
+}
+
+#about {
+	padding-left: 20px;
+}
+
+.first-section div {
+display: inline-block;
+width: 44%;
+
+}
+
+/* ====second section==== */
+.second-section {
+margin: 10px 150px;
+}
+
+.second-section img {
+	width: 950px;
+}
+
+/* ===third section=== */
+.third-section {
+	width: 960px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.third-section div {
+	display: inline-block;
+	width: 29%;
+	padding: 20px 10px 20px 0;
+	
+}
+
+/* ====contact section==== */
+.fourth-section {
+	width: 960px;
+	margin: 20px auto 0 auto;
+}
+
+address {
+	padding: 20px 0;
+}
+
+address a {
+	color: black;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+/* ====footer==== */
+footer {
+	width: 1000px;
+	margin:  0 500px;
+	padding-bottom: 200px;
+}
